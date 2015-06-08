@@ -18,14 +18,14 @@ Pasos para crear el proyecto:
 9. Google plus API Setup https://developers.google.com/+/mobile/android/samples/quickstart-android
 	* Ir a Google Developer Console https://console.developers.google.com/project
 	* Agregar un proyecto. Indicar un nombre, crear y esperar a que se cree el proyecto
-  c. Ir a APIs & Auth/APIs y habilitar Google+ Api
-  d. Ir a APIs & Auth/Consent Screen e indicar un correo y "product name”
-  e. Ir a APIs & Auth/Credentials y crear "Client ID" y seleccionar "Installed App” + Android
-    i. Indicar el package name del punto 1. (i.e com.unab.mobile.googleplus)
-    ii.Indicar el "Signing certificate fingerprint (sha1)”. Mas info en: https://developer.android.com/tools/publishing/app-signing.html y https://developers.google.com/+/mobile/android/samples/quickstart-android
-      1. Comando: ``` $keytool -exportcert -alias androiddebugkey -keystore <path-to-debug-or-production-keystore> -list -v ```
-      2. Copiar el valor de la linea que dice Sha1
-    iii.Presionar “Create Client Id”
+  * Ir a APIs & Auth/APIs y habilitar Google+ Api
+  * Ir a APIs & Auth/Consent Screen e indicar un correo y "product name”
+  * Ir a APIs & Auth/Credentials y crear "Client ID" y seleccionar "Installed App” + Android
+    * Indicar el package name del punto 1. (i.e com.unab.mobile.googleplus)
+    * Indicar el "Signing certificate fingerprint (sha1)”. Mas info en: https://developer.android.com/tools/publishing/app-signing.html y https://developers.google.com/+/mobile/android/samples/quickstart-android
+      * Comando: ``` $keytool -exportcert -alias androiddebugkey -keystore <path-to-debug-or-production-keystore> -list -v ```
+      * Copiar el valor de la linea que dice Sha1
+    	* Presionar “Create Client Id”
 10. Para efectos de testing, volver al proyecto en el editor de código y copiar el contenido del archivo ${RAIZ_PROYECTO}/plugins/nl.x-services.plugins.googleplus/demo/index.html en ${RAIZ_PROYECTO}/www/index.html
 11. Ejecutar Paso 3, 4 y 5
 
