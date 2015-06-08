@@ -7,11 +7,11 @@ Plugin usado: https://github.com/EddyVerbruggen/cordova-plugin-googleplus
 Pasos para crear el proyecto:
 
 1. $cordova create unab-mobile-googleplus com.unab.mobile.googleplus
-2. $cordova platform add android
-3. $cordova build
+2. ``` $cordova platform add android ```
+3. ``` $cordova build ```
 4. Chequear que dispositivo este contectado y reconocido por el notebook
 5. adb devices
-6. $cordova run android
+6. ``` $cordova run android ```
 7. Abrir proyecto en un editor como Atom.io o Brackets.io
 8. Agregar plugin de google plus para cordova
 	a. $cordova plugin add nl.x-services.plugins.googleplus
