@@ -14,10 +14,10 @@ Pasos para crear el proyecto:
 6. ``` $cordova run android ```
 7. Abrir proyecto en un editor como Atom.io o Brackets.io
 8. Agregar plugin de google plus para cordova
-	a. ``` $cordova plugin add nl.x-services.plugins.googleplus ```
+	* ``` $cordova plugin add nl.x-services.plugins.googleplus ```
 9. Google plus API Setup https://developers.google.com/+/mobile/android/samples/quickstart-android
-	a. Ir a Google Developer Console https://console.developers.google.com/project
-	b. Agregar un proyecto. Indicar un nombre, crear y esperar a que se cree el proyecto
+	* Ir a Google Developer Console https://console.developers.google.com/project
+	* Agregar un proyecto. Indicar un nombre, crear y esperar a que se cree el proyecto
   c. Ir a APIs & Auth/APIs y habilitar Google+ Api
   d. Ir a APIs & Auth/Consent Screen e indicar un correo y "product name”
   e. Ir a APIs & Auth/Credentials y crear "Client ID" y seleccionar "Installed App” + Android
