@@ -18,9 +18,9 @@ Pasos para crear el proyecto:
 9. Google plus API Setup https://developers.google.com/+/mobile/android/samples/quickstart-android
 	a. Ir a Google Developer Console https://console.developers.google.com/project
 	b. Agregar un proyecto. Indicar un nombre, crear y esperar a que se cree el proyecto
-  * Ir a APIs & Auth/APIs y habilitar Google+ Api
-  * Ir a APIs & Auth/Consent Screen e indicar un correo y "product name”
-  * Ir a APIs & Auth/Credentials y crear "Client ID" y seleccionar "Installed App” + Android
+  c. Ir a APIs & Auth/APIs y habilitar Google+ Api
+  d. Ir a APIs & Auth/Consent Screen e indicar un correo y "product name”
+  e. Ir a APIs & Auth/Credentials y crear "Client ID" y seleccionar "Installed App” + Android
     i. Indicar el package name del punto 1. (i.e com.unab.mobile.googleplus)
     ii.Indicar el "Signing certificate fingerprint (sha1)”. Mas info en: https://developer.android.com/tools/publishing/app-signing.html y https://developers.google.com/+/mobile/android/samples/quickstart-android
       1. Comando: ``` $keytool -exportcert -alias androiddebugkey -keystore <path-to-debug-or-production-keystore> -list -v ```
